@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    user-select: none;
+}
+
+#background {
+    background: rgb(54, 53, 53);
+    background: linear-gradient(131deg, rgba(54, 53, 53, 1) 0%, rgba(189, 189, 189, 1) 43%, rgba(186, 186, 186, 1) 100%, rgba(252, 253, 254, 1) 100%);
+    height: 100vh;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#calc-body,
+input,
+button {
+    background: rgb(231, 237, 245);
+    /* #ecf1f7; */
+}
+
+#calc-body {
+    border: 3px white solid;
+    padding: 20px;
+    border-radius: 30px;
+    text-align: center;
+    align-content: center;
+}
+
+input {
+    /* padding: ; */
+    background: transparent;
+    box-shadow: inset 10px 10px 20px #c4c8cd, inset -10px -10px 20px #ffffff;
+    font-family: 'Electrolize', sans-serif;
+    margin: 24px 15px;
+    color: #969696;
+    width: 340px;
+    height: 150px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    text-align: right;
+    font-size: 50px;
+    border: none;
+    outline: none;
+}
+
+button {
+    font-family: Roboto, sans-serif;
+    font-weight: 0;
+    font-size: 24px;
+    height: 60px;
+    width: 70px;
+    color: #969696;
+    margin: 10px;
+    border: none;
+    box-shadow: 10px 10px 20px #c4c8cd, -10px -10px 20px #ffffff;
+    border-radius: 10px;
+    transition: 0ms;
+    transform: translateY(0);
+    cursor: pointer;
+}
+
+button:active {
+    background: linear-gradient(145deg, #d0d5dd, #f7feff);
+    box-shadow: 5px 5px 10px #e5ebf3, -5px -5px 10px #e9eff7;
+}
+
+.operators,
+.equals,
+#ac,
+#del,
+#mod {
+    color: white;
+}
+
+.operators {
+    background-color: rgb(78, 156, 149);
+}
+
+.operators:active {
+    background: linear-gradient(145deg, #468c86, #53a79f);
+}
+
+.equals {
+    background-color: rgb(255, 211, 15);
+    font-size: 30px;
+}
+
+.equals:active {
+    background: linear-gradient(145deg, #e6be0e, #ffe210);
+}
+
+#ac {
+    background-color: rgb(235, 42, 70);
+}
+
+#ac:active {
+    background: linear-gradient(145deg, #d4263f, #fb2d4b);
+}
+
+#del,
+#mod {
+    background-color: rgb(67, 140, 243);
+}
+
+#del,
+#mod:active {
+    background: linear-gradient(145deg, #3c7edb, #4896ff);
+}
