@@ -21,7 +21,7 @@ arr.forEach(button => {
                 string = "";
                 input.value = string;
             } else if (e.target.innerHTML == 'DEL') {
-                if (input.value == 'Error') {
+                if (input.value == 'Error' || input.value != 0) {
                     string = "";
                     input.value = string
                 }
