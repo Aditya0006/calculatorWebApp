@@ -67,7 +67,7 @@ button:active {
     box-shadow: 5px 5px 10px #e5ebf3, -5px -5px 10px #e9eff7;
 }
 
-.operators,
+.operator,
 .equals,
 #ac,
 #del,
@@ -75,11 +75,11 @@ button:active {
     color: white;
 }
 
-.operators {
+.operator {
     background-color: rgb(78, 156, 149);
 }
 
-.operators:active {
+.operator:active {
     background: linear-gradient(145deg, #468c86, #53a79f);
 }
 
